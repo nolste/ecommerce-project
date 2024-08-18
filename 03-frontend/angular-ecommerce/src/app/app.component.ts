@@ -9,6 +9,7 @@ import { routes } from './app.routes';
 import { ProductCategoryMenuComponent } from './components/product-category-menu/product-category-menu.component';
 import { SearchComponent } from './components/search/search.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CartStatusComponent } from "./components/cart-status/cart-status.component";
 
 
 //might have to import appconfig or app.routes here?
@@ -24,7 +25,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CommonModule,
     ProductCategoryMenuComponent,
     SearchComponent,
-    NgbModule
+    NgbModule,
+    CartStatusComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

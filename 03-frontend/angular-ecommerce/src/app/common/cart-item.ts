@@ -7,11 +7,12 @@ export class CartItem {
     unitPrice: number;
     quantity: number;
 
-    constructor(product: Product) {
-        this.id = product.id;
-        this.name = product.name;
-        this.imageUrl = product.imageUrl;
-        this.unitPrice = product.unitPrice;
+    constructor(id: string, name: string, imageUrl: string, unitPrice: number) {
+        this.id = id;
+        this.name = name;
+        this.imageUrl = imageUrl;
+        this.unitPrice = unitPrice;
+
         this.quantity = 1;
     }
 }

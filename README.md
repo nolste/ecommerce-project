@@ -1,6 +1,6 @@
 # eCommerce Website
 
-I created this project to practice Angular and Springboot development. The project leverages a Java Spring Boot back end to handle business logic, user authentication, and data processing, while the Angular front end ensures a smooth and responsive user experience. The site features a product catalog, shopping cart, and secure checkout process. 
+I created this project to practice Angular and Springboot development. The site features a product catalog, shopping cart, and secure checkout process. End goal is a website where users can browse products, add them to cart, and then checkout. This project is still in development.
 
 Technologies Used
 -----------------
